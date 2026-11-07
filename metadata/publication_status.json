@@ -12,7 +12,16 @@
   "author_count": 1,
   "repository_account": "caramelling",
   "formal_publication_name_pending": true,
-  "code_license_selected": false,
-  "data_license_selected": false,
-  "status": "User-authorized public repository access verified; scientific data and frozen code unchanged. Code/data license selection, formal citation metadata and manuscript identifier/budget alignment remain pending."
+  "code_license_selected": true,
+  "code_license": "MIT",
+  "code_license_scope": "Original repository files outside data/, including software, configuration, documentation and metadata",
+  "data_license_selected": true,
+  "data_license": "CC-BY-4.0",
+  "data_license_scope": "Research material in data/",
+  "license_grants_authorized_by_user": true,
+  "license_authorization_date": "2026-11-07",
+  "manuscript_title": "Joint allocation and procurement of finite multi-source bulb-flat stock for ship block manufacturing",
+  "target_journal": "Ocean Engineering",
+  "publication_doi": null,
+  "status": "User-authorized public release with MIT software and CC BY 4.0 data licenses; scientific data and frozen code unchanged. Formal author name and final submission checks remain pending."
 }

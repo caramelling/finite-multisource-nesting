@@ -3,9 +3,9 @@
 Research release for static allocation of finite planned bulb-flat stock, controlled remnants, and new purchases, with block isolation and directional material compatibility.
 
 Repository: https://github.com/caramelling/finite-multisource-nesting  
-Publication metadata: `[MANUSCRIPT-TITLE / AUTHOR NAME / DOI IF ASSIGNED — TO BE COMPLETED]`
+Associated manuscript: *Joint allocation and procurement of finite multi-source bulb-flat stock for ship block manufacturing*. Prepared for submission to Ocean Engineering; no publication DOI has been assigned. The sole author's formal publication name is pending; the repository account is `caramelling`.
 
-**Repository status:** publicly accessible, with anonymous access verified. The sole author has authorized publication of the de-identified code and data. Code and data reuse licenses are awaiting the author's selection; public visibility does not itself grant a reuse license. See `docs/PUBLICATION_CHECKLIST.md`.
+**Repository status:** publicly accessible, with anonymous access verified. The sole author has authorized publication and licensing of the de-identified code and data. Software and repository documentation use the **MIT License**; research material in `data/` uses **CC BY 4.0**. See `LICENSE`, `LICENSE-DATA` and `LICENSING.md` for the complete terms and directory scope.
 
 ## What is included
 
@@ -82,4 +82,4 @@ docs/                     Data dictionary, coverage, de-identification and relea
 
 See `docs/COVERAGE.md` for evidence levels and unavailable historical drivers/statistical reconstruction details. The original database, original identity mappings, business-source fields, private preparation scripts, system logs, credentials and image-service settings are not distributed. Identifiers are surrogates; scientific lengths, grades, sections, weights, seeds and recorded outcomes are retained. Removing direct identifiers does not eliminate possible attribute-based inference. The author has confirmed that the retained research attributes may be published.
 
-For citation and licensing completion, see `CITATION.md` and `docs/PUBLICATION_CHECKLIST.md`.
+For manuscript metadata, citation guidance and remaining submission checks, see `CITATION.md` and `docs/PUBLICATION_CHECKLIST.md`.

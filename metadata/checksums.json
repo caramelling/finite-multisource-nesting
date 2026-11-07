@@ -8,16 +8,28 @@
     "size_bytes": 138
   },
   "CITATION.md": {
-    "sha256": "4f81d2cd125d9bc02bd75ece5cc2bc39eb7e5e5b7dc2e93361aec5ab736847ff",
-    "size_bytes": 909
+    "sha256": "288ac4cd54f598e975f558ee33f7b5cc3043310ab05c9e343e7bbd547e0dc4f7",
+    "size_bytes": 1238
+  },
+  "LICENSE": {
+    "sha256": "de67ebe368ed0d64f1cacddc884dd6e73dc1f39d445c95ddd4ffe45706838716",
+    "size_bytes": 1068
+  },
+  "LICENSE-DATA": {
+    "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+    "size_bytes": 18656
+  },
+  "LICENSING.md": {
+    "sha256": "c12c9e3765b39109ba1bea40ccf8b3699bc65e3fe06e92f484256ed61e048dad",
+    "size_bytes": 1954
   },
   "README.md": {
-    "sha256": "cba6b56f8a9f6285574c8e296a8efc088e7761a1fbb8695518722909d66d4387",
-    "size_bytes": 6423
+    "sha256": "d588a13fe588c018ee1a46f2d576fe52669df135105f6dbe1a2d8f99fa52bbf0",
+    "size_bytes": 6730
   },
   "README_zh.md": {
-    "sha256": "c29a9ff3127a20f4982dbfe77aab8d0b5632f4b9186423396eaf38e29f9d512a",
-    "size_bytes": 4000
+    "sha256": "5ac82575af23d10dad1895ad50d7fdf0efdb1ddf5fe96d269358143ddbcd7e18",
+    "size_bytes": 4234
   },
   "archived_code/BUNDLE_629a6da33c368d6d/algorithms.py": {
     "sha256": "e7c6123c0993bad580c697fbd4bee8feeeb9a9983c0dcbdeff02072e74129677",
@@ -414,6 +426,10 @@
   "configs/standard_test.json": {
     "sha256": "6dc8137cf5df81458c0cda6ba626b525f0d2d85381767325ecb936d67d58f964",
     "size_bytes": 1361
+  },
+  "data/README.md": {
+    "sha256": "dc3fb088a969ca5e46a722daec6a823f73c267188e8c0c1e1ed795d435ed3555",
+    "size_bytes": 1392
   },
   "data/figure_source/controlled_remnant_composition.csv": {
     "sha256": "98e52d0dcaf38491fc9f8c908a2d818c484d9e0d9a55e8d61a2330571634b70c",
@@ -1880,8 +1896,8 @@
     "size_bytes": 6792
   },
   "docs/PUBLICATION_CHECKLIST.md": {
-    "sha256": "139daf82634122251c409fad9ab2ea3ff42cf33bd9d803b2d1cac1ef14bfac3e",
-    "size_bytes": 2394
+    "sha256": "af2d4d0769bb86669a250725c8e18cf370ef29ad58f6658a482abe199013350c",
+    "size_bytes": 2373
   },
   "environment.yml": {
     "sha256": "0790fe35660b16addddea10259daef4ff70606034c93046d073b91b940c989ca",
@@ -1916,8 +1932,8 @@
     "size_bytes": 581
   },
   "metadata/publication_status.json": {
-    "sha256": "6eb0f3742e389b8bdd9111c9efc58fc842194d052de4fd158ab48fd26d66f4bf",
-    "size_bytes": 904
+    "sha256": "f008ce2d1d859a9fdcf969a6d0008f734b9cbef7968afdd98af3b6b1a3095c85",
+    "size_bytes": 1413
   },
   "metadata/verification_summary.json": {
     "sha256": "a05ade9896a9eaa899ce69fa33348fecca8e37c44d5eb87747617f4855c4b096",

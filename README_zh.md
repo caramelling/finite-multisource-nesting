@@ -2,7 +2,9 @@
 
 英文 `README.md` 为仓库主说明。本文件提供对应的中文操作说明，不构成另一套实验口径。
 
-**当前状态：仓库已公开，已核验无需登录即可访问。唯一作者已确认可以公开去标识化代码与数据；代码和数据的复用许可证待作者选定，公开可见本身不等于授予复用许可。正式署名、论文题目及其他投稿信息待补齐。**
+**当前状态：仓库已公开，已核验无需登录即可访问。唯一作者已确认公开并授权：代码与仓库文档采用 MIT，`data/` 中的科研数据采用 CC BY 4.0。完整条款与目录范围见 `LICENSE`、`LICENSE-DATA`、`LICENSING.md`。**
+
+对应稿件题目为 *Joint allocation and procurement of finite multi-source bulb-flat stock for ship block manufacturing*，拟投 Ocean Engineering，尚无正式出版 DOI。仓库账号为 `caramelling`，唯一作者的正式发表姓名仍待填写。
 
 ## 内容
 
