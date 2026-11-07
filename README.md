@@ -1,11 +1,11 @@
 # Finite multi-source stock allocation for ship block manufacturing
 
-Research release candidate for static allocation of finite planned bulb-flat stock, controlled remnants, and new purchases, with block isolation and directional material compatibility.
+Research release for static allocation of finite planned bulb-flat stock, controlled remnants, and new purchases, with block isolation and directional material compatibility.
 
 Repository: https://github.com/caramelling/finite-multisource-nesting  
-Publication metadata: `[MANUSCRIPT-TITLE / AUTHORS / DOI — TO BE COMPLETED]`
+Publication metadata: `[MANUSCRIPT-TITLE / AUTHOR NAME / DOI IF ASSIGNED — TO BE COMPLETED]`
 
-**Repository status:** deposited and verified in the author's private GitHub repository. It is not publicly accessible. Rights-holder permission and code/data licenses for public distribution remain pending; no public license is granted by this candidate. See `docs/PUBLICATION_CHECKLIST.md`.
+**Repository status:** publicly accessible, with anonymous access verified. The sole author has authorized publication of the de-identified code and data. Code and data reuse licenses are awaiting the author's selection; public visibility does not itself grant a reuse license. See `docs/PUBLICATION_CHECKLIST.md`.
 
 ## What is included
 
@@ -80,6 +80,6 @@ metadata/                 Provenance, field/file inventories and SHA-256 checksu
 docs/                     Data dictionary, coverage, de-identification and release gates
 ```
 
-See `docs/COVERAGE.md` for evidence levels and unavailable historical drivers/statistical reconstruction details. The original database, original identity mappings, business-source fields, private preparation scripts, system logs, credentials and image-service settings are not distributed. Identifiers are surrogates; scientific lengths, grades, sections, weights, seeds and recorded outcomes are retained. Attribute-based inference remains possible, so rights-holder review remains necessary.
+See `docs/COVERAGE.md` for evidence levels and unavailable historical drivers/statistical reconstruction details. The original database, original identity mappings, business-source fields, private preparation scripts, system logs, credentials and image-service settings are not distributed. Identifiers are surrogates; scientific lengths, grades, sections, weights, seeds and recorded outcomes are retained. Removing direct identifiers does not eliminate possible attribute-based inference. The author has confirmed that the retained research attributes may be published.
 
 For citation and licensing completion, see `CITATION.md` and `docs/PUBLICATION_CHECKLIST.md`.

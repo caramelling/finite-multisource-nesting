@@ -1,8 +1,8 @@
-# 船舶分段制造有限多源母材联合分配：发布候选包
+# 船舶分段制造有限多源母材联合分配：研究发布包
 
 英文 `README.md` 为仓库主说明。本文件提供对应的中文操作说明，不构成另一套实验口径。
 
-**当前状态：已按作者要求上传并核验私有 GitHub 仓库，尚未向公众开放。公开前仍需作者确认工程数据共享权限、代码许可证和数据许可证，并补齐作者及论文信息。**
+**当前状态：仓库已公开，已核验无需登录即可访问。唯一作者已确认可以公开去标识化代码与数据；代码和数据的复用许可证待作者选定，公开可见本身不等于授予复用许可。正式署名、论文题目及其他投稿信息待补齐。**
 
 ## 内容
 
@@ -53,4 +53,4 @@ python scripts/run_experiment.py --family small --case SMALL001 --algorithm EXAC
 
 原始数据库、原始身份对应表、业务来源字段、私人准备脚本、系统日志、密钥及图像服务配置均不放入仓库。替换直接标识符，保留用于研究核验的长度、材质、规格、重量、种子和既有结果。这属于去标识化，不保证无法通过工程属性组合推断来源。
 
-完整覆盖范围、字段解释及公开前清单分别见 `docs/COVERAGE.md`、`docs/DATA_DICTIONARY.md`、`docs/PUBLICATION_CHECKLIST.md`。仓库地址为 https://github.com/caramelling/finite-multisource-nesting ，目前保持私有，不代表已经向读者公开。
+作者已确认保留的科研属性可以公开。完整覆盖范围、字段解释及投稿核对清单分别见 `docs/COVERAGE.md`、`docs/DATA_DICTIONARY.md`、`docs/PUBLICATION_CHECKLIST.md`。公开仓库地址为 https://github.com/caramelling/finite-multisource-nesting 。
