@@ -22,6 +22,8 @@
   "license_authorization_date": "2026-11-07",
   "manuscript_title": "Joint allocation and procurement of finite multi-source bulb-flat stock for ship block manufacturing",
   "target_journal": "Ocean Engineering",
+  "manuscript_budget_alignment_confirmed": true,
+  "manuscript_availability_statement_updated": true,
   "publication_doi": null,
   "status": "User-authorized public release with MIT software and CC BY 4.0 data licenses; scientific data and frozen code unchanged. Formal author name and final submission checks remain pending."
 }

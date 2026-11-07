@@ -1896,8 +1896,8 @@
     "size_bytes": 6792
   },
   "docs/PUBLICATION_CHECKLIST.md": {
-    "sha256": "af2d4d0769bb86669a250725c8e18cf370ef29ad58f6658a482abe199013350c",
-    "size_bytes": 2373
+    "sha256": "8ed54bf0e8e6dbfdc7b72a8f9b6976c8e2290773295df8c355a8adcee5859b43",
+    "size_bytes": 2521
   },
   "environment.yml": {
     "sha256": "0790fe35660b16addddea10259daef4ff70606034c93046d073b91b940c989ca",
@@ -1932,8 +1932,8 @@
     "size_bytes": 581
   },
   "metadata/publication_status.json": {
-    "sha256": "f008ce2d1d859a9fdcf969a6d0008f734b9cbef7968afdd98af3b6b1a3095c85",
-    "size_bytes": 1413
+    "sha256": "a122bbd8b9194e74d3ac7147ed1323182b4c392026e12e71eabeb7a81cb5f2d8",
+    "size_bytes": 1517
   },
   "metadata/verification_summary.json": {
     "sha256": "a05ade9896a9eaa899ce69fa33348fecca8e37c44d5eb87747617f4855c4b096",
