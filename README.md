@@ -5,7 +5,7 @@ Research release candidate for static allocation of finite planned bulb-flat sto
 Repository: https://github.com/caramelling/finite-multisource-nesting  
 Publication metadata: `[MANUSCRIPT-TITLE / AUTHORS / DOI — TO BE COMPLETED]`
 
-**Repository status:** verified artifact prepared for deposit in the author's private GitHub repository. It is not publicly accessible. Rights-holder permission and code/data licenses for public distribution remain pending; no public license is granted by this candidate. See `docs/PUBLICATION_CHECKLIST.md`.
+**Repository status:** deposited and verified in the author's private GitHub repository. It is not publicly accessible. Rights-holder permission and code/data licenses for public distribution remain pending; no public license is granted by this candidate. See `docs/PUBLICATION_CHECKLIST.md`.
 
 ## What is included
 

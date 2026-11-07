@@ -1,6 +1,7 @@
 {
   "repository_url": "https://github.com/caramelling/finite-multisource-nesting",
-  "uploaded": false,
+  "uploaded": true,
+  "initial_deposition_commit": "79a0925f438be81fa2cc8b62214d1eccb4a56320",
   "repository_visibility": "private",
   "public_access": false,
   "upload_authorized_by_user": true,
@@ -8,5 +9,5 @@
   "rights_holder_permission_confirmed": false,
   "code_license_selected": false,
   "data_license_selected": false,
-  "status": "Verified artifact prepared for user-authorized private repository deposition; public-distribution permissions, licenses, manuscript identifier/budget alignment and final review remain pending."
+  "status": "User-authorized private repository deposition completed and remote file hashes verified; public-distribution permissions, licenses, manuscript identifier/budget alignment and final review remain pending."
 }
