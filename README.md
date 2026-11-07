@@ -1,5 +1,7 @@
 # Finite multi-source stock allocation for ship block manufacturing
 
+**English** | [简体中文](README_zh.md)
+
 Research release for static allocation of finite planned bulb-flat stock, controlled remnants, and new purchases, with block isolation and directional material compatibility.
 
 Repository: https://github.com/caramelling/finite-multisource-nesting  
