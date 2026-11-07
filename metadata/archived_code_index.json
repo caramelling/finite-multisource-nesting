@@ -1,0 +1,300 @@
+{
+  "batches": {
+    "X000001": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000002": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000003": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000004": {
+      "code_bundle": null,
+      "status": "No complete computational source snapshot for this archived batch."
+    },
+    "X000006": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000007": {
+      "code_bundle": null,
+      "status": "No complete computational source snapshot for this archived batch."
+    },
+    "X000008": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000009": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000010": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000011": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000013": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000015": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000016": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000017": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000018": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000019": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000020": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000021": {
+      "code_bundle": null,
+      "status": "No complete computational source snapshot for this archived batch."
+    },
+    "X000022": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000023": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000024": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000025": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000026": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000028": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000029": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000030": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000031": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000032": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000034": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000036": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000037": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000038": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000039": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000040": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000042": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000043": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000045": {
+      "code_bundle": null,
+      "status": "No complete computational source snapshot for this archived batch."
+    },
+    "X000046": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000047": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000048": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000049": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000050": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000051": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000052": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000056": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000057": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000058": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000059": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000060": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000061": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000062": {
+      "code_bundle": null,
+      "status": "No complete computational source snapshot for this archived batch."
+    },
+    "X000063": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000064": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000065": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000067": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000068": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000069": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000070": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000072": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000073": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000074": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000075": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000076": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000078": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000079": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000080": {
+      "code_bundle": "BUNDLE_a43a01601b8a708f",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    },
+    "X000081": {
+      "code_bundle": null,
+      "status": "No complete computational source snapshot for this archived batch."
+    },
+    "X000083": {
+      "code_bundle": "BUNDLE_629a6da33c368d6d",
+      "status": "Byte-identical archived computational modules; database drivers excluded."
+    }
+  },
+  "bundles": {
+    "BUNDLE_629a6da33c368d6d": {
+      "modules": {
+        "algorithms.py": "e7c6123c0993bad580c697fbd4bee8feeeb9a9983c0dcbdeff02072e74129677",
+        "assignment_alns.py": "eba34848508e3cb2fc5f5a3d78fec09aa48f4f8e38b5fbf2bf923adf4887a7f9",
+        "true_multisource_alns.py": "fede201150770e04872bfc041f4001f1df6c22896e0b9e0962541b4145f9b549",
+        "multisource_alns.py": "bcc053e4568473de9275a6065b127dec25a87b6df5bb5dc413161a8a28fda6de",
+        "exact.py": "ae6930a3f53abde56399dca74196bd3483df77a8d6476ed7ac562372c754ec62",
+        "validation.py": "9924fe90c321ffdb11f6bf1da0f1faf722a0e2ef39b71e9cfcc61d42db9c2595"
+      },
+      "purpose": "Archived computational sources; not selected as the formal release implementation."
+    },
+    "BUNDLE_a43a01601b8a708f": {
+      "modules": {
+        "algorithms.py": "b3d8f98c29ca4ecdc378075f9ae84697620446c5e9776e1bc6ea096783885b34",
+        "assignment_alns.py": "a2abb5d479b3dc15038bd226df350061ab2a61ef8a6860904c0f5fc8e9c890c2",
+        "true_multisource_alns.py": "0e505513066225eee43310f98ae5fd6f50fd81e32a62295297e8d0ffa8018ffe",
+        "multisource_alns.py": "bcc053e4568473de9275a6065b127dec25a87b6df5bb5dc413161a8a28fda6de",
+        "exact.py": "ae6930a3f53abde56399dca74196bd3483df77a8d6476ed7ac562372c754ec62",
+        "validation.py": "9924fe90c321ffdb11f6bf1da0f1faf722a0e2ef39b71e9cfcc61d42db9c2595"
+      },
+      "purpose": "Archived computational sources; not selected as the formal release implementation."
+    }
+  }
+}

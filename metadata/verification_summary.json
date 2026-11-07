@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "optimization_runs_launched": 0,
+  "main_runs_checked": 100,
+  "assignments_checked": 455500,
+  "bars_checked": 194494,
+  "main_parts": 4555,
+  "main_blocks": 50,
+  "planned_stock_entities": 2868,
+  "paired_lower_tied_higher": [
+    17,
+    2,
+    1
+  ],
+  "paired_median_purchase_difference_t": 0.0374000000000001,
+  "representative_purchase_length_reduction_m": 2.5,
+  "representative_same_existing_entities": 35,
+  "standard_cases": 27,
+  "small_cases": 15,
+  "small_search_runs": 450,
+  "small_optimal_hits": 360,
+  "frozen_modules_checked": 8,
+  "small_run_records_checked": 465,
+  "standard_run_records_checked": 2070,
+  "standard_case_method_medians_checked": 81,
+  "scope": "Independent recalculation of archived plans and selected descriptive results; no optimization reruns or new inferential statistics."
+}

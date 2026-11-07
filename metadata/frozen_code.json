@@ -1,0 +1,34 @@
+{
+  "src/profile_nesting_release/frozen/algorithms.py": {
+    "sha256": "b3d8f98c29ca4ecdc378075f9ae84697620446c5e9776e1bc6ea096783885b34",
+    "content": "unchanged frozen computational module"
+  },
+  "src/profile_nesting_release/frozen/assignment_alns.py": {
+    "sha256": "a2abb5d479b3dc15038bd226df350061ab2a61ef8a6860904c0f5fc8e9c890c2",
+    "content": "unchanged frozen computational module"
+  },
+  "src/profile_nesting_release/frozen/true_multisource_alns.py": {
+    "sha256": "0e505513066225eee43310f98ae5fd6f50fd81e32a62295297e8d0ffa8018ffe",
+    "content": "unchanged frozen computational module"
+  },
+  "src/profile_nesting_release/frozen/multisource_alns.py": {
+    "sha256": "bcc053e4568473de9275a6065b127dec25a87b6df5bb5dc413161a8a28fda6de",
+    "content": "unchanged frozen computational module"
+  },
+  "src/profile_nesting_release/frozen/exact.py": {
+    "sha256": "ae6930a3f53abde56399dca74196bd3483df77a8d6476ed7ac562372c754ec62",
+    "content": "unchanged frozen computational module"
+  },
+  "src/profile_nesting_release/frozen/validation.py": {
+    "sha256": "9924fe90c321ffdb11f6bf1da0f1faf722a0e2ef39b71e9cfcc61d42db9c2595",
+    "content": "unchanged frozen computational module"
+  },
+  "src/profile_nesting_release/frozen/finite_exact.py": {
+    "sha256": "76efce1f37da17b6f8490b567b2ba3ae3ad65ea67a5f151d5f4ab7737179a276",
+    "content": "unchanged frozen computational module"
+  },
+  "src/profile_nesting_release/frozen/metaheuristics.py": {
+    "sha256": "430b577deec7bc1cb272c70fec21c2f48568aa987e2cbcf6a2b83e3ba8178040",
+    "content": "unchanged frozen computational module"
+  }
+}

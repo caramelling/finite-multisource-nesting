@@ -1,0 +1,20 @@
+{
+  "solver_status": "OPTIMAL_RELAXATION",
+  "lower_bound_weight_t": 1.817640000000003,
+  "solver_gap": 0.0,
+  "elapsed_ms": 111583,
+  "demand_count": 206,
+  "block_count": 8,
+  "initial_stock_count": 36,
+  "initial_stock_type_count": 7,
+  "item_material_assignment_variables": 362,
+  "initial_allocation_variables": 48,
+  "purchase_variables": 144,
+  "capacity_coefficient_count": 160,
+  "nominal_weight_lower_reference_kg_per_m": 14.96,
+  "mixed_demand_materials_per_stock_bar_allowed": true,
+  "other_geometries_lower_bound_weight_t": 0.0,
+  "other_geometries_bound_zero": true,
+  "upper_weight_t": 1.9373200000000002,
+  "relative_gap": 0.061776061776060286
+}

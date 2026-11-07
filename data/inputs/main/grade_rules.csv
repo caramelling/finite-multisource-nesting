@@ -1,0 +1,4 @@
+demand_material,stock_material,profile_type,penalty
+A,AH32,HP,1.0
+A,AH36,HP,2.0
+AH32,AH36,HP,1.0

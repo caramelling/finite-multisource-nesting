@@ -1,0 +1,2 @@
+variant,paired_seed_count,nonzero_pair_count,median_purchase_weight_delta_t,purchase_weight_ci95_low_t,purchase_weight_ci95_high_t,exact_wilcoxon_p,rank_biserial,median_purchase_count_delta,median_elapsed_delta_s,worse_seed_count,equal_seed_count,better_seed_count,holm_adjusted_p
+REGRET_GREEDY,20,20,0.014960000000000084,-0.026180000000000092,0.03739999999999988,0.8194255828857422,0.06190476190476191,0.0,-7.5375,11,0,9,0.8194255828857422

@@ -1,0 +1,11 @@
+name: profile-nesting-release
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.13
+  - pip
+  - pip:
+      - numpy==2.4.6
+      - matplotlib==3.10.9
+      - pandas==3.0.3
+      - highspy==1.15.1

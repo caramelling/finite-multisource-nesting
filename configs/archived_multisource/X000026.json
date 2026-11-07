@@ -1,0 +1,64 @@
+{
+  "adaptive_operator_weights": true,
+  "boundary_allowance_mm": 10.0,
+  "destroy_fraction": 0.15,
+  "iterations_per_active_geometry": {
+    "S4": 500
+  },
+  "joint_s4_stages": "SERIAL_THEN_JOINT_EACH_WITH_S4_ITERATION_BUDGET",
+  "local_milp_enabled": false,
+  "local_milp_max_groups": 5,
+  "local_milp_total_seconds": 10.0,
+  "max_removed": 24,
+  "operator_set": [
+    "random",
+    "related",
+    "purchase",
+    "remnant",
+    "substitution",
+    "high_remaining"
+  ],
+  "regret_k": 2,
+  "remnant_level": "HIGH",
+  "scenarios": [
+    {
+      "joint_material_nesting": true,
+      "name": "S4",
+      "use_controlled_remnants": true,
+      "use_controlled_substitution": true
+    }
+  ],
+  "seeds": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "solver_mode": "ASSIGNMENT",
+  "standard_lengths_mm": [
+    8000,
+    8500,
+    9000,
+    9500,
+    10000,
+    10500,
+    11000,
+    11500,
+    12000
+  ],
+  "substitution_penalty_scale": 0.5,
+  "time_limit_seconds": 600.0,
+  "record_id": "X000026",
+  "is_formal_source_batch": false
+}

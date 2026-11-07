@@ -1,0 +1,28 @@
+{
+  "case_id": "SMALL006",
+  "weight_references": [
+    {
+      "material": "AH32",
+      "profile_type": "HP",
+      "specification": "200*10",
+      "unit_weight_kg_per_m": 20.14,
+      "weight_basis": "EXACT_MATERIAL_HP_SPEC"
+    },
+    {
+      "material": "AH32",
+      "profile_type": "HP",
+      "specification": "240*11",
+      "unit_weight_kg_per_m": 27.39,
+      "weight_basis": "EXACT_MATERIAL_HP_SPEC"
+    },
+    {
+      "material": "AH36",
+      "profile_type": "HP",
+      "specification": "280*11",
+      "unit_weight_kg_per_m": 33.5,
+      "weight_basis": "EXACT_MATERIAL_HP_SPEC"
+    }
+  ],
+  "initial_stock_count": 3,
+  "part_count": 10
+}

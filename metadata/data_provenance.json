@@ -1,0 +1,24 @@
+{
+  "study": "Static finite multi-source bulb-flat allocation in ship block manufacturing",
+  "input_origin": "Frozen demand, planned stock, and controlled remnant records. Demand attributes are cross-checked against the frozen demand-unit table.",
+  "main_demand_count": 4555,
+  "main_block_count": 50,
+  "planned_stock_count": 2868,
+  "controlled_high_remnant_count": 124,
+  "formal_run_count": 100,
+  "all_released_demand_count": 11557,
+  "standard_case_count": 27,
+  "small_case_count": 15,
+  "raw_database_distributed": false,
+  "original_identity_mapping_distributed": false,
+  "anonymization": "Order-preserving surrogate identifiers; scientific lengths, grades, sections, weights and recorded outcomes are unchanged.",
+  "reidentification_note": "Engineering attribute combinations are retained for verification; removal of direct identifiers does not prove irreversible anonymization.",
+  "formal_budget_iterations": {
+    "S0": 500,
+    "S1": 500,
+    "S2": 500,
+    "S3": 1000,
+    "S4": 500
+  },
+  "optimization_runs_launched_during_packaging": 0
+}

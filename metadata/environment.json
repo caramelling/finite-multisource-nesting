@@ -1,0 +1,9 @@
+{
+  "verification_python": "3.12.13",
+  "verification_numpy": "2.4.6",
+  "verification_matplotlib": "3.10.9",
+  "optional_solver_highspy": "1.15.1",
+  "archived_solver_python_record": "3.13.15",
+  "archived_solver_threads": 1,
+  "note": "Verification checks existing data and imports; no optimization runs were launched while preparing this release."
+}

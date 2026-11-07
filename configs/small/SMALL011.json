@@ -1,0 +1,14 @@
+{
+  "case_id": "SMALL011",
+  "weight_references": [
+    {
+      "material": "AH36",
+      "profile_type": "HP",
+      "specification": "200*10",
+      "unit_weight_kg_per_m": 20.14,
+      "weight_basis": "EXACT_MATERIAL_HP_SPEC"
+    }
+  ],
+  "initial_stock_count": 2,
+  "part_count": 10
+}

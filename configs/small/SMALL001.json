@@ -1,0 +1,56 @@
+{
+  "case_id": "SMALL001",
+  "weight_references": [
+    {
+      "material": "AH36",
+      "profile_type": "HP",
+      "specification": "160*9",
+      "unit_weight_kg_per_m": 13.97,
+      "weight_basis": "EXACT_MATERIAL_HP_SPEC"
+    },
+    {
+      "material": "AH36",
+      "profile_type": "HP",
+      "specification": "200*10",
+      "unit_weight_kg_per_m": 20.14,
+      "weight_basis": "EXACT_MATERIAL_HP_SPEC"
+    },
+    {
+      "material": "AH36",
+      "profile_type": "HP",
+      "specification": "260*10",
+      "unit_weight_kg_per_m": 28.35,
+      "weight_basis": "EXACT_MATERIAL_HP_SPEC"
+    },
+    {
+      "material": "AH36",
+      "profile_type": "HP",
+      "specification": "260*12",
+      "unit_weight_kg_per_m": 32.43,
+      "weight_basis": "EXACT_MATERIAL_HP_SPEC"
+    },
+    {
+      "material": "AH36",
+      "profile_type": "HP",
+      "specification": "280*11",
+      "unit_weight_kg_per_m": 33.5,
+      "weight_basis": "EXACT_MATERIAL_HP_SPEC"
+    },
+    {
+      "material": "AH36",
+      "profile_type": "HP",
+      "specification": "300*13",
+      "unit_weight_kg_per_m": 41.44,
+      "weight_basis": "EXACT_MATERIAL_HP_SPEC"
+    },
+    {
+      "material": "AH36",
+      "profile_type": "HP",
+      "specification": "320*12",
+      "unit_weight_kg_per_m": 42.6,
+      "weight_basis": "EXACT_MATERIAL_HP_SPEC"
+    }
+  ],
+  "initial_stock_count": 14,
+  "part_count": 44
+}

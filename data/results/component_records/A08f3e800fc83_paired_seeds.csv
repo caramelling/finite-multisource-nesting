@@ -1,0 +1,4 @@
+seed,full_purchase_weight_t,variant_purchase_weight_t,variant_minus_full_weight_t,variant_minus_full_count,variant_minus_full_substitution_penalty,variant_minus_full_elapsed_s
+0,1.9971600000000003,1.9971600000000003,0.0,0,0.0,0.86
+1,1.9896800000000003,1.9896800000000003,0.0,0,0.0,0.832
+2,2.04204,2.04204,0.0,0,0.0,4.98

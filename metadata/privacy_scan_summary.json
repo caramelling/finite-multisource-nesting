@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "files_scanned": "Payload before generated integrity metadata",
+  "identifier_domains_checked": [
+    "project_code",
+    "public_alias",
+    "block_name",
+    "block_s3",
+    "block_s4",
+    "demand_id",
+    "stock_unit_id",
+    "run_id",
+    "batch_id",
+    "pool_id",
+    "stock_id",
+    "project_id",
+    "block_id",
+    "stock_entity_id"
+  ],
+  "findings": [],
+  "scope": "Automated direct-identifier, path, credential-pattern, UUID, schema and file-size scan; not proof against inference from retained engineering attributes."
+}

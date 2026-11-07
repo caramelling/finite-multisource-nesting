@@ -1,0 +1,3 @@
+stock_unit_id,stock_id,material,profile_type,specification,stock_length_mm,source_type,unit_weight_kg_per_m
+I001299,G000056,ABS-AH36,HP,HP180*9,12000.0,PURCHASE,16.22
+I001399,G000059,ABS-AH36,HP,HP200*10,12000.0,PURCHASE,20.14

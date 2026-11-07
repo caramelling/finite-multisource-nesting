@@ -1,0 +1,213 @@
+column,unit_or_role,file_count
+ASSIGNMENT_S0,t,1
+ASSIGNMENT_S1,t,1
+ASSIGNMENT_S2,t,1
+ASSIGNMENT_S3,t,1
+ASSIGNMENT_S4,t,1
+additional_purchase_count,count / index,68
+additional_purchase_length_mm,mm,68
+additional_purchase_weight_t,t,68
+algorithm,identifier / category / flag; see DATA_DICTIONARY.md,75
+all_valid,identifier / category / flag; see DATA_DICTIONARY.md,1
+allowance_length_m,m,1
+allowance_length_mm,mm,100
+alns_absolute_weight_gap_t_median,t,1
+alns_elapsed_s_median,s,2
+alns_optimal_hit_count,count / index,1
+alns_purchase_weight_t_best,t,1
+alns_purchase_weight_t_median,t,1
+alns_run_count,count / index,2
+assigned_count,count / index,71
+available_length_m,m,1
+bar_count,count / index,72
+bar_id,identifier / category / flag; see DATA_DICTIONARY.md,200
+batch_id,identifier / category / flag; see DATA_DICTIONARY.md,3
+better_seed_count,count / index,1
+bfd_bar_count,count / index,2
+bfd_stock_mm,mm,2
+bfd_waste_mm,mm,2
+block_id,identifier / category / flag; see DATA_DICTIONARY.md,1
+block_name,identifier / category / flag; see DATA_DICTIONARY.md,256
+block_s3,identifier / category / flag; see DATA_DICTIONARY.md,1
+block_s4,identifier / category / flag; see DATA_DICTIONARY.md,1
+case_count,count / index,1
+case_id,identifier / category / flag; see DATA_DICTIONARY.md,1
+combination_changed,identifier / category / flag; see DATA_DICTIONARY.md,1
+comparison,identifier / category / flag; see DATA_DICTIONARY.md,1
+controlled_remnant_count,count / index,3
+controlled_remnant_count_median,count / index,1
+controlled_remnant_length_m,m,3
+controlled_remnant_length_m_median,m,1
+controlled_remnant_used_count,count / index,67
+controlled_remnant_used_length_mm,mm,67
+count_ci95_high,count / index,1
+count_ci95_low,count / index,1
+count_difference_a_minus_b,count / index,1
+count_holm_adjusted_p,count / index,1
+count_nonzero_pairs,count / index,1
+count_rank_biserial,count / index,1
+count_wilcoxon_exact_p,count / index,1
+demand_id,identifier / category / flag; see DATA_DICTIONARY.md,145
+demand_material,identifier / category / flag; see DATA_DICTIONARY.md,1
+demand_ref,identifier / category / flag; see DATA_DICTIONARY.md,1
+demand_refs,identifier / category / flag; see DATA_DICTIONARY.md,1
+demand_refs_s3,identifier / category / flag; see DATA_DICTIONARY.md,1
+demand_refs_s4,identifier / category / flag; see DATA_DICTIONARY.md,1
+difference_s3_minus_s4_t,t,1
+elapsed_a_s,identifier / category / flag; see DATA_DICTIONARY.md,1
+elapsed_b_s,identifier / category / flag; see DATA_DICTIONARY.md,1
+elapsed_ms,ms,70
+elapsed_s,s,4
+elapsed_s_median,s,2
+elapsed_variant_minus_full_s,identifier / category / flag; see DATA_DICTIONARY.md,1
+entity_ref,identifier / category / flag; see DATA_DICTIONARY.md,3
+equal_seed_count,count / index,1
+exact_wilcoxon_p,dimensionless; see DATA_DICTIONARY.md,1
+full_purchase_weight_t,t,3
+geometry_time_limit_seconds_per_stage,s,1
+holm_adjusted_p,dimensionless; see DATA_DICTIONARY.md,1
+initial_stock_count,count / index,1
+input_count,count / index,74
+is_additional_purchase,identifier / category / flag; see DATA_DICTIONARY.md,100
+is_substitution,identifier / category / flag; see DATA_DICTIONARY.md,100
+is_valid,identifier / category / flag; see DATA_DICTIONARY.md,70
+issue_count,count / index,70
+iteration_limit,dimensionless; see DATA_DICTIONARY.md,69
+iterations_per_active_geometry,count / index,1
+kind,identifier / category / flag; see DATA_DICTIONARY.md,1
+length_difference_m_a_minus_b,m,1
+material,identifier / category / flag; see DATA_DICTIONARY.md,265
+max_gap_percent,%,1
+meaning,identifier / category / flag; see DATA_DICTIONARY.md,1
+median_count_reduction_a_minus_b,count / index,1
+median_elapsed_a_s,identifier / category / flag; see DATA_DICTIONARY.md,1
+median_elapsed_b_s,identifier / category / flag; see DATA_DICTIONARY.md,1
+median_elapsed_delta_s,identifier / category / flag; see DATA_DICTIONARY.md,1
+median_gap_percent,%,1
+median_length_reduction_m_a_minus_b,m,1
+median_purchase_count_delta,count / index,1
+median_purchase_weight_delta_t,t,1
+median_substitution_penalty_a_minus_b,dimensionless; see DATA_DICTIONARY.md,1
+median_weight_reduction_percent,%,1
+median_weight_reduction_t_a_minus_b,t,1
+milp_elapsed_s,s,2
+milp_mip_gap,dimensionless; see DATA_DICTIONARY.md,1
+milp_optimum_weight_t,t,1
+milp_purchase_weight_t,t,1
+milp_status,identifier / category / flag; see DATA_DICTIONARY.md,1
+mip_gap,dimensionless; see DATA_DICTIONARY.md,1
+net_length_m,m,3
+net_length_mm,mm,245
+net_utilization,dimensionless; see DATA_DICTIONARY.md,3
+net_utilization_median,dimensionless; see DATA_DICTIONARY.md,2
+nominal_weight_t,t,1
+nonzero_pair_count,count / index,1
+occupied_utilization,dimensionless; see DATA_DICTIONARY.md,3
+occupied_utilization_median,dimensionless; see DATA_DICTIONARY.md,2
+optimal_hit_count,count / index,1
+paired_seed_count,count / index,2
+paper_demand,identifier / category / flag; see DATA_DICTIONARY.md,1
+paper_entity,identifier / category / flag; see DATA_DICTIONARY.md,1
+part_count,count / index,4
+penalty,dimensionless; see DATA_DICTIONARY.md,2
+piece_count,count / index,101
+piece_count_s3,count / index,1
+piece_count_s4,count / index,1
+pool_id,identifier / category / flag; see DATA_DICTIONARY.md,1
+profile_type,identifier / category / flag; see DATA_DICTIONARY.md,265
+project_code,identifier / category / flag; see DATA_DICTIONARY.md,249
+project_id,identifier / category / flag; see DATA_DICTIONARY.md,1
+public_alias,identifier / category / flag; see DATA_DICTIONARY.md,5
+purchase_count,count / index,4
+purchase_count_median,count / index,1
+purchase_count_variant_minus_full,count / index,1
+purchase_length_m,m,4
+purchase_length_m_median,m,1
+purchase_weight_ci95_high_t,t,1
+purchase_weight_ci95_low_t,t,1
+purchase_weight_t,t,3
+purchase_weight_t_median,t,1
+purchase_weight_variant_minus_full_t,t,1
+random_seed,count / index,70
+rank_biserial,dimensionless; see DATA_DICTIONARY.md,1
+remaining_length_m,m,2
+remaining_length_mm,mm,100
+remaining_m_s3,m,1
+remaining_m_s4,m,1
+required_material,identifier / category / flag; see DATA_DICTIONARY.md,2
+reusable_tail_count,count / index,3
+reusable_tail_count_median,count / index,2
+reusable_tail_length_m,m,3
+reusable_tail_length_m_median,m,2
+reusable_tail_weight_proxy_t,t,3
+reusable_tail_weight_proxy_t_median,t,1
+run_count,count / index,2
+run_id,identifier / category / flag; see DATA_DICTIONARY.md,74
+saved_m,m,1
+saved_vs_bfd_m_median,m,1
+saved_vs_bfd_mm,mm,2
+scenario,identifier / category / flag; see DATA_DICTIONARY.md,7
+scenario_a,identifier / category / flag; see DATA_DICTIONARY.md,1
+scenario_b,identifier / category / flag; see DATA_DICTIONARY.md,1
+seed,count / index,10
+segment_changed,identifier / category / flag; see DATA_DICTIONARY.md,1
+selected_initial_stock_count,count / index,1
+sequence_in_bar,count / index,101
+shared_search_cutoff_seconds,s,1
+size_class,identifier / category / flag; see DATA_DICTIONARY.md,3
+solver_status,identifier / category / flag; see DATA_DICTIONARY.md,70
+source,identifier / category / flag; see DATA_DICTIONARY.md,2
+source_type,identifier / category / flag; see DATA_DICTIONARY.md,19
+specification,identifier / category / flag; see DATA_DICTIONARY.md,267
+split,identifier / category / flag; see DATA_DICTIONARY.md,3
+split_name,identifier / category / flag; see DATA_DICTIONARY.md,2
+stage_count,count / index,1
+stock_entity_id,identifier / category / flag; see DATA_DICTIONARY.md,1
+stock_id,identifier / category / flag; see DATA_DICTIONARY.md,19
+stock_length_m,m,7
+stock_length_m_median,m,1
+stock_length_mm,mm,119
+stock_material,identifier / category / flag; see DATA_DICTIONARY.md,106
+stock_material_s3,identifier / category / flag; see DATA_DICTIONARY.md,1
+stock_material_s4,identifier / category / flag; see DATA_DICTIONARY.md,1
+stock_source_type,identifier / category / flag; see DATA_DICTIONARY.md,101
+stock_unit_id,identifier / category / flag; see DATA_DICTIONARY.md,119
+stock_weight_t,t,100
+substitution_count,count / index,70
+substitution_count_median,count / index,1
+substitution_length_m,m,3
+substitution_length_m_median,m,1
+substitution_length_mm,mm,67
+substitution_penalty,dimensionless; see DATA_DICTIONARY.md,170
+substitution_penalty_a_minus_b,dimensionless; see DATA_DICTIONARY.md,1
+substitution_penalty_median,dimensionless; see DATA_DICTIONARY.md,1
+substitution_penalty_variant_minus_full,dimensionless; see DATA_DICTIONARY.md,1
+time_ratio_milp_over_alns,dimensionless; see DATA_DICTIONARY.md,1
+total_remaining_length_mm,mm,69
+total_reusable_remnant_length_mm,mm,69
+total_stock_length_mm,mm,69
+total_waste_length_mm,mm,70
+unassigned_count,count / index,74
+unassigned_count_max,count / index,2
+unassigned_length_m,m,3
+unassigned_length_m_max,m,2
+unit_weight_kg_per_m,kg/m,119
+used_length_m,m,1
+used_length_mm,mm,100
+utilization,dimensionless; see DATA_DICTIONARY.md,69
+variant,identifier / category / flag; see DATA_DICTIONARY.md,2
+variant_minus_full_count,count / index,3
+variant_minus_full_elapsed_s,s,3
+variant_minus_full_substitution_penalty,dimensionless; see DATA_DICTIONARY.md,3
+variant_minus_full_weight_t,t,3
+variant_purchase_weight_t,t,3
+waste_length_m,m,3
+waste_length_m_median,m,2
+weight_ci95_high_t,t,1
+weight_ci95_low_t,t,1
+weight_difference_t_a_minus_b,t,1
+weight_holm_adjusted_p,dimensionless; see DATA_DICTIONARY.md,1
+weight_nonzero_pairs,identifier / category / flag; see DATA_DICTIONARY.md,1
+weight_rank_biserial,dimensionless; see DATA_DICTIONARY.md,1
+weight_wilcoxon_exact_p,dimensionless; see DATA_DICTIONARY.md,1
+worse_seed_count,count / index,1

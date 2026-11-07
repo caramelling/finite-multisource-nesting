@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+outputs/
+private/
+*.sqlite*
+*.db
+.env
+.env.*
+auth.json
+config.toml
+*.log
+.DS_Store
+Thumbs.db
