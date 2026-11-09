@@ -6,9 +6,9 @@
 
 仓库地址：https://github.com/caramelling/finite-multisource-nesting
 
-**当前状态：仓库已公开，已核验无需登录即可访问。唯一作者已确认公开并授权：代码与仓库文档采用 MIT，`data/` 中的科研数据采用 CC BY 4.0。完整条款与目录范围见 `LICENSE`、`LICENSE-DATA`、`LICENSING.md`。**
+**当前状态：仓库已公开，已核验无需登录即可访问。仓库所有者已确认公开并授权：代码与仓库文档采用 MIT，`data/` 中的科研数据采用 CC BY 4.0。完整条款与目录范围见 `LICENSE`、`LICENSE-DATA`、`LICENSING.md`。**
 
-对应稿件题目为 *Joint allocation and procurement of finite multi-source bulb-flat stock for ship block manufacturing*，拟投 Ocean Engineering，尚无正式出版 DOI。仓库账号为 `caramelling`，唯一作者的正式发表姓名仍待填写。
+对应稿件题目为 *Joint allocation and procurement of finite multi-source bulb-flat stock for ship block manufacturing*，拟投 Ocean Engineering，尚无正式出版 DOI。作者依次为吴尚灵、李金楷、黄成涛、王权、宋德颖、衣正尧。仓库由账号 `caramelling` 维护，英文署名见[引用信息](CITATION.md)。
 
 ## 内容
 
@@ -42,6 +42,19 @@ python scripts/reproduce_figures.py --output outputs/figures
 ```
 
 也可使用 `conda env create -f environment.yml`。核验、单元测试和定量重绘均不调用优化求解；本次制作发布包没有新增优化实验。图 1 是方法示意，不由定量重绘脚本生成。
+
+## 可复现统计重分析
+
+本仓库包含现稿实际采用的统计流程与记录结果：100,000 次配对 bootstrap、明确的随机种子，以及按归一化零差和并列秩处理的精确符号秩检验。历史 10,000 次重采样结果单独保留以便追溯，无需重跑优化实验。公开状态与文件位置记录于 `metadata/statistical_reanalysis_status.json`。
+
+独立统计流程使用既有结果，不运行套料优化：
+
+```bash
+python -m pip install -r requirements-statistics.txt
+python scripts/reproduce_statistics.py --output outputs/statistics
+```
+
+设置、来源哈希、零差及并列秩处理、新旧结果关系见[统计说明](docs/STATISTICAL_REANALYSIS_zh.md)。新结果位于`data/results/reanalysis_20261108/`，历史表不覆盖。另行进行的[原统计源码复核](docs/ORIGINAL_STATISTICS_CROSSCHECK_zh.md)已完成，历史产物与配对来源一致，regret的p值差异已定位为浮点并列秩分裂。论文继续采用设置明确的新重分析，不静默更换历史参数。
 
 ## 真实配置口径
 

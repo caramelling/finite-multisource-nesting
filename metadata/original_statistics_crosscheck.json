@@ -1,0 +1,348 @@
+{
+  "status": "PASS",
+  "audit_date": "2026-11-09",
+  "scope": "Source-level statistical provenance and saved-result pairing; no nesting experiments or solver reruns",
+  "execution": "Original analysis function ASTs, original function bodies unchanged; relative project imports omitted; SQLite connection replaced by mode=ro and query_only=ON; outputs isolated",
+  "optimization_runs_launched": 0,
+  "protected_original_module_count": 70,
+  "source_analysis_sha256": {
+    "statistics_analysis.py": "cfc0f8b4bb8c86b909717550a590a25f2abb57a1410566e67d698ac6f5126ed1",
+    "multisource_analysis.py": "af91eb153c25ad6d048e0f001e10cd1470d54972fa2e52974036a7e1a31110bc",
+    "assignment_ablation_analysis.py": "8cfea01ab635910a7182f8b3eee9022f7336355ce4d27277f1ed2c67dc9a9593",
+    "assignment_pilot_screen.py": "fd9b54520db343691514586634ea63954f96a02e3ca8436edf34052c62b40df3"
+  },
+  "historical_settings": {
+    "main": {
+      "resamples": 10000,
+      "weight_seed": "20260925 + comparison index 0..3",
+      "count_seed": "20261025 + comparison index 0..3",
+      "comparison_order": [
+        [
+          "S0",
+          "S1"
+        ],
+        [
+          "S0",
+          "S2"
+        ],
+        [
+          "S3",
+          "S4"
+        ],
+        [
+          "S0",
+          "S4"
+        ]
+      ]
+    },
+    "regret": {
+      "resamples": 10000,
+      "seed": 20260926
+    },
+    "standard": {
+      "resamples": 10000,
+      "base_seed": 20260923,
+      "pairwise_seed": "base + pair index 0..5"
+    },
+    "shared": {
+      "rng": "random.Random / Mersenne Twister",
+      "percentile": "linear interpolation at (B-1)*q",
+      "signed_rank_zero_tolerance": 1e-12,
+      "ties": "strict equality of raw absolute binary floating-point differences",
+      "pvalue": "exact sign enumeration, average tied ranks, doubled-rank integer dynamic programming"
+    }
+  },
+  "historical_artifacts": [
+    {
+      "group": "main",
+      "filename": "comparison_statistics.csv",
+      "sha256": "0b559ce55eac3d4d2d7617ba209a13701a09abf36079b64f09cebf6db67e3264",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "main",
+      "filename": "manifest.json",
+      "sha256": "c691738cb0ae76713762af91a75b6f51cb98231a85960ef678ecbf15e9bc8a3c",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "main",
+      "filename": "paired_seed_differences.csv",
+      "sha256": "14c12dc3cb19ab6c1109a537e43687da0721b835d338ef39e8bc8ef1a0daa4ee",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "main",
+      "filename": "report.md",
+      "sha256": "cb5d874b53778120f251c9b240838ce1da9032928275159c24c8c9d3fb12aeb4",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "main",
+      "filename": "scenario_summary.csv",
+      "sha256": "1560e95e103a4bfabec4aa76405e777861236f11aa4986b15fc8a5c45f01cec4",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "main",
+      "filename": "summary.json",
+      "sha256": "78e452450296fbfd404731775ff985368514feced95d3248f60157fe45962d70",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "regret",
+      "filename": "component_statistics.csv",
+      "sha256": "3cdac19e2c47682fdfe5874d4ac3a02befc5f9989911e29e55de6c39880114b2",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "regret",
+      "filename": "manifest.json",
+      "sha256": "39e8e5083197146663ac22ab4023cc2d970d02f31b422574881ea09c29c3c4fd",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "regret",
+      "filename": "paired_seed_differences.csv",
+      "sha256": "09f833e673e15fe940cc6e004c0dee1fd520090592f61dbe6e2e67a453f8fb8a",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "regret",
+      "filename": "report.md",
+      "sha256": "2cacf35b2c79794e50f0fd22b66da82dfe5a3bda80c1a9bb6d7989f705b53b08",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "regret",
+      "filename": "summary.json",
+      "sha256": "3f96e5c85931e8282f85a0aa6f3d442e70181d3b62a7cfe1b8d160b19ac47c23",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "development_validation",
+      "filename": "instance_medians.csv",
+      "sha256": "44d42933fd3d72315ad5c741819c80f5a3bbeb953b8faa0e967c3abc04d719b1",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "development_validation",
+      "filename": "manifest.json",
+      "sha256": "10fdb8c0f00f0b41ef4194b4c4b579a33e7fdce84733fa9bfa6c5f71c0e1f328",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "development_validation",
+      "filename": "pairwise_tests.csv",
+      "sha256": "8a641d8e0dcbb47edcf8a9e7221a8ab9ed0a01f879c5a5405afb502f4603f915",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "development_validation",
+      "filename": "report.md",
+      "sha256": "62b9771a49856d8f98a13a82d2498f8cfc041eb06b9f676b7095039387301ee9",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "development_validation",
+      "filename": "selected_block_ship_summary.csv",
+      "sha256": "884c3d294db7ae5f8db2383e53a7b580b0e9b21c49d954d42f9c02813783db62",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "development_validation",
+      "filename": "summary.json",
+      "sha256": "b331f652929d31bb25ace9a38fc78d82f03084ef76f5c4e9fc81162f42a4c6f3",
+      "included_in_frozen_artifact_export": true,
+      "matches_frozen_archive": true,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "test",
+      "filename": "instance_medians.csv",
+      "sha256": "97cec436b23e2ab9f86d58426f1c387a612bc68be24e9d8da5bab6920b40fb59",
+      "included_in_frozen_artifact_export": false,
+      "matches_frozen_archive": null,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "test",
+      "filename": "manifest.json",
+      "sha256": "dc3e309aa4dac8ff51b6eb1baa946c21565a4c3e6e7fc5e865801e4055386a0e",
+      "included_in_frozen_artifact_export": false,
+      "matches_frozen_archive": null,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "test",
+      "filename": "pairwise_tests.csv",
+      "sha256": "1d1b3da7d95677105f1a71f3b8b89cca51f1c8c73afe0f2e85e357d9fe7c725e",
+      "included_in_frozen_artifact_export": false,
+      "matches_frozen_archive": null,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "test",
+      "filename": "report.md",
+      "sha256": "f0ba03bad36c51c942fdec24a8b144eadb884e144a6e1009867761105202d585",
+      "included_in_frozen_artifact_export": false,
+      "matches_frozen_archive": null,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "test",
+      "filename": "selected_block_ship_summary.csv",
+      "sha256": "c64552848e1c7b34b0425d08071bf5aef08a4431bc84532cf4dea11aa2a6c000",
+      "included_in_frozen_artifact_export": false,
+      "matches_frozen_archive": null,
+      "historical_reproduction_byte_identical": true
+    },
+    {
+      "group": "test",
+      "filename": "summary.json",
+      "sha256": "1e8697c3018929541d5ceb7ca278f62da23cbddbb6bb7a4fc36a407aa8104bba",
+      "included_in_frozen_artifact_export": false,
+      "matches_frozen_archive": null,
+      "historical_reproduction_byte_identical": true
+    }
+  ],
+  "main_metrics": {
+    "runs": 100,
+    "matches_frozen_database": true,
+    "matches_public_metrics_at_documented_resolution": true,
+    "maximum_csv_float_serialization_difference_t": 4.440892098500626e-16
+  },
+  "standard_metrics": {
+    "development_validation": {
+      "blocks": 20,
+      "run_records": 1500,
+      "complete_block_seed_signatures_match": true
+    },
+    "test": {
+      "blocks": 7,
+      "run_records": 570,
+      "complete_block_seed_signatures_match": true
+    }
+  },
+  "regret": {
+    "paired_rows_identical": true,
+    "historical_p": 0.8194255828857422,
+    "normalized_p": 0.8050556182861328,
+    "raw_positive_rank_sum": 111.5,
+    "normalized_positive_rank_sum": 112.0,
+    "ranks_changed_seeds": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      13,
+      18
+    ],
+    "split_tie_groups_due_to_float_representation": 4,
+    "cause": "Binary subtraction artifacts split nominally equal absolute differences into unequal ranks; applying the same original exact test to integer-normalized differences reproduces the new p-value."
+  },
+  "decision": "Keep the explicit 100000-resample reanalysis as the reported analysis; retain historical outputs unchanged. The source cross-check is complete within this scope, not a claim of rerunning all experiments.",
+  "original_runtime_database_unchanged": true,
+  "audit_script_sha256": "9d68ac3cd1efa5082843f8954bfc7f9930e2c2534cb60b79ce32a9d68836088f",
+  "frozen_modules": [
+    {
+      "module": "algorithms.py",
+      "sha256": "b3d8f98c29ca4ecdc378075f9ae84697620446c5e9776e1bc6ea096783885b34",
+      "matches_original_project": false,
+      "current_project_sha256": "e7c6123c0993bad580c697fbd4bee8feeeb9a9983c0dcbdeff02072e74129677",
+      "matches_original_archived_snapshot": true,
+      "matches_public_frozen_module": true
+    },
+    {
+      "module": "assignment_alns.py",
+      "sha256": "a2abb5d479b3dc15038bd226df350061ab2a61ef8a6860904c0f5fc8e9c890c2",
+      "matches_original_project": false,
+      "current_project_sha256": "eba34848508e3cb2fc5f5a3d78fec09aa48f4f8e38b5fbf2bf923adf4887a7f9",
+      "matches_original_archived_snapshot": true,
+      "matches_public_frozen_module": true
+    },
+    {
+      "module": "true_multisource_alns.py",
+      "sha256": "0e505513066225eee43310f98ae5fd6f50fd81e32a62295297e8d0ffa8018ffe",
+      "matches_original_project": false,
+      "current_project_sha256": "fede201150770e04872bfc041f4001f1df6c22896e0b9e0962541b4145f9b549",
+      "matches_original_archived_snapshot": true,
+      "matches_public_frozen_module": true
+    },
+    {
+      "module": "multisource_alns.py",
+      "sha256": "bcc053e4568473de9275a6065b127dec25a87b6df5bb5dc413161a8a28fda6de",
+      "matches_original_project": true,
+      "current_project_sha256": "bcc053e4568473de9275a6065b127dec25a87b6df5bb5dc413161a8a28fda6de",
+      "matches_original_archived_snapshot": true,
+      "matches_public_frozen_module": true
+    },
+    {
+      "module": "exact.py",
+      "sha256": "ae6930a3f53abde56399dca74196bd3483df77a8d6476ed7ac562372c754ec62",
+      "matches_original_project": true,
+      "current_project_sha256": "ae6930a3f53abde56399dca74196bd3483df77a8d6476ed7ac562372c754ec62",
+      "matches_original_archived_snapshot": true,
+      "matches_public_frozen_module": true
+    },
+    {
+      "module": "validation.py",
+      "sha256": "9924fe90c321ffdb11f6bf1da0f1faf722a0e2ef39b71e9cfcc61d42db9c2595",
+      "matches_original_project": true,
+      "current_project_sha256": "9924fe90c321ffdb11f6bf1da0f1faf722a0e2ef39b71e9cfcc61d42db9c2595",
+      "matches_original_archived_snapshot": true,
+      "matches_public_frozen_module": true
+    },
+    {
+      "module": "finite_exact.py",
+      "sha256": "76efce1f37da17b6f8490b567b2ba3ae3ad65ea67a5f151d5f4ab7737179a276",
+      "matches_original_project": true,
+      "current_project_sha256": "76efce1f37da17b6f8490b567b2ba3ae3ad65ea67a5f151d5f4ab7737179a276",
+      "matches_original_archived_snapshot": true,
+      "matches_public_frozen_module": true
+    },
+    {
+      "module": "metaheuristics.py",
+      "sha256": "430b577deec7bc1cb272c70fec21c2f48568aa987e2cbcf6a2b83e3ba8178040",
+      "matches_original_project": true,
+      "current_project_sha256": "430b577deec7bc1cb272c70fec21c2f48568aa987e2cbcf6a2b83e3ba8178040",
+      "matches_original_archived_snapshot": true,
+      "matches_public_frozen_module": true
+    }
+  ],
+  "publication": "Local companion-package update; not represented as part of the previously published commit."
+}

@@ -1,6 +1,6 @@
 # Code and data licenses
 
-The sole author authorized these licenses on 2026-11-07. The copyright holder is identified by the public GitHub account `caramelling`.
+The repository owner authorized these licenses on 2026-11-07. The copyright holder is identified by the public GitHub account `caramelling`. The associated manuscript's author list is recorded separately in `CITATION.md`.
 
 ## Software and repository documentation: MIT
 

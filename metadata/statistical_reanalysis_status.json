@@ -1,0 +1,13 @@
+{
+  "analysis_id": "retrospective_reanalysis_20261108",
+  "saved_input_release_commit": "9289ed10b3750eeaf35accf4a6179743410309cf",
+  "new_files_are_local_pending_publication": false,
+  "publication_date": "2026-11-09",
+  "public_repository": "https://github.com/caramelling/finite-multisource-nesting",
+  "publication_branch": "main",
+  "original_project_crosscheck_pending": false,
+  "original_project_crosscheck": "metadata/original_statistics_crosscheck.json",
+  "optimization_runs_launched": 0,
+  "guide": "docs/STATISTICAL_REANALYSIS.md",
+  "outputs": "data/results/reanalysis_20261108/"
+}

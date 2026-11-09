@@ -17,6 +17,7 @@ alns_optimal_hit_count,count / index,1
 alns_purchase_weight_t_best,t,1
 alns_purchase_weight_t_median,t,1
 alns_run_count,count / index,2
+archived_value,quantity-specific; see quantity field,1
 assigned_count,count / index,71
 available_length_m,m,1
 bar_count,count / index,72
@@ -27,13 +28,16 @@ bfd_bar_count,count / index,2
 bfd_stock_mm,mm,2
 bfd_waste_mm,mm,2
 block_id,identifier / category / flag; see DATA_DICTIONARY.md,1
-block_name,identifier / category / flag; see DATA_DICTIONARY.md,256
+block_name,identifier / category / flag; see DATA_DICTIONARY.md,257
 block_s3,identifier / category / flag; see DATA_DICTIONARY.md,1
 block_s4,identifier / category / flag; see DATA_DICTIONARY.md,1
+bootstrap_index_sha256,dimensionless / categorical; see statistical guide,1
 case_count,count / index,1
 case_id,identifier / category / flag; see DATA_DICTIONARY.md,1
+ci95_high,t (regret weight analysis),1
+ci95_low,t (regret weight analysis),1
 combination_changed,identifier / category / flag; see DATA_DICTIONARY.md,1
-comparison,identifier / category / flag; see DATA_DICTIONARY.md,1
+comparison,identifier / category / flag; see DATA_DICTIONARY.md,3
 controlled_remnant_count,count / index,3
 controlled_remnant_count_median,count / index,1
 controlled_remnant_length_m,m,3
@@ -42,7 +46,7 @@ controlled_remnant_used_count,count / index,67
 controlled_remnant_used_length_mm,mm,67
 count_ci95_high,count / index,1
 count_ci95_low,count / index,1
-count_difference_a_minus_b,count / index,1
+count_difference_a_minus_b,count / index,2
 count_holm_adjusted_p,count / index,1
 count_nonzero_pairs,count / index,1
 count_rank_biserial,count / index,1
@@ -54,6 +58,7 @@ demand_refs,identifier / category / flag; see DATA_DICTIONARY.md,1
 demand_refs_s3,identifier / category / flag; see DATA_DICTIONARY.md,1
 demand_refs_s4,identifier / category / flag; see DATA_DICTIONARY.md,1
 difference_s3_minus_s4_t,t,1
+direction,dimensionless / categorical; see statistical guide,1
 elapsed_a_s,identifier / category / flag; see DATA_DICTIONARY.md,1
 elapsed_b_s,identifier / category / flag; see DATA_DICTIONARY.md,1
 elapsed_ms,ms,70
@@ -65,7 +70,8 @@ equal_seed_count,count / index,1
 exact_wilcoxon_p,dimensionless; see DATA_DICTIONARY.md,1
 full_purchase_weight_t,t,3
 geometry_time_limit_seconds_per_stage,s,1
-holm_adjusted_p,dimensionless; see DATA_DICTIONARY.md,1
+holm_adjusted_p,dimensionless; see DATA_DICTIONARY.md,3
+holm_family_size,dimensionless / categorical; see statistical guide,1
 initial_stock_count,count / index,1
 input_count,count / index,74
 is_additional_purchase,identifier / category / flag; see DATA_DICTIONARY.md,100
@@ -80,6 +86,7 @@ material,identifier / category / flag; see DATA_DICTIONARY.md,265
 max_gap_percent,%,1
 meaning,identifier / category / flag; see DATA_DICTIONARY.md,1
 median_count_reduction_a_minus_b,count / index,1
+median_difference,t (regret weight analysis),1
 median_elapsed_a_s,identifier / category / flag; see DATA_DICTIONARY.md,1
 median_elapsed_b_s,identifier / category / flag; see DATA_DICTIONARY.md,1
 median_elapsed_delta_s,identifier / category / flag; see DATA_DICTIONARY.md,1
@@ -87,24 +94,35 @@ median_gap_percent,%,1
 median_length_reduction_m_a_minus_b,m,1
 median_purchase_count_delta,count / index,1
 median_purchase_weight_delta_t,t,1
+median_stock_length_mm,mm,1
+median_stock_reduction_m_a_minus_b,dimensionless / categorical; see statistical guide,1
 median_substitution_penalty_a_minus_b,dimensionless; see DATA_DICTIONARY.md,1
 median_weight_reduction_percent,%,1
 median_weight_reduction_t_a_minus_b,t,1
+method,dimensionless / categorical; see statistical guide,1
+method_a,dimensionless / categorical; see statistical guide,1
+method_b,dimensionless / categorical; see statistical guide,1
 milp_elapsed_s,s,2
 milp_mip_gap,dimensionless; see DATA_DICTIONARY.md,1
 milp_optimum_weight_t,t,1
 milp_purchase_weight_t,t,1
 milp_status,identifier / category / flag; see DATA_DICTIONARY.md,1
 mip_gap,dimensionless; see DATA_DICTIONARY.md,1
+negative_pairs,dimensionless / categorical; see statistical guide,2
+negative_rank_sum,dimensionless / categorical; see statistical guide,2
 net_length_m,m,3
 net_length_mm,mm,245
 net_utilization,dimensionless; see DATA_DICTIONARY.md,3
 net_utilization_median,dimensionless; see DATA_DICTIONARY.md,2
 nominal_weight_t,t,1
 nonzero_pair_count,count / index,1
+nonzero_pairs,dimensionless / categorical; see statistical guide,2
 occupied_utilization,dimensionless; see DATA_DICTIONARY.md,3
 occupied_utilization_median,dimensionless; see DATA_DICTIONARY.md,2
 optimal_hit_count,count / index,1
+p_denominator,dimensionless / categorical; see statistical guide,2
+p_numerator,dimensionless / categorical; see statistical guide,2
+paired_count,dimensionless / categorical; see statistical guide,2
 paired_seed_count,count / index,2
 paper_demand,identifier / category / flag; see DATA_DICTIONARY.md,1
 paper_entity,identifier / category / flag; see DATA_DICTIONARY.md,1
@@ -114,13 +132,31 @@ piece_count,count / index,101
 piece_count_s3,count / index,1
 piece_count_s4,count / index,1
 pool_id,identifier / category / flag; see DATA_DICTIONARY.md,1
+positive_pairs,dimensionless / categorical; see statistical guide,2
+positive_rank_sum,dimensionless / categorical; see statistical guide,2
 profile_type,identifier / category / flag; see DATA_DICTIONARY.md,265
-project_code,identifier / category / flag; see DATA_DICTIONARY.md,249
+project_code,identifier / category / flag; see DATA_DICTIONARY.md,250
 project_id,identifier / category / flag; see DATA_DICTIONARY.md,1
 public_alias,identifier / category / flag; see DATA_DICTIONARY.md,5
 purchase_count,count / index,4
+purchase_count_ci95_high,bars,1
+purchase_count_ci95_low,bars,1
+purchase_count_holm_adjusted_p,dimensionless / categorical; see statistical guide,1
 purchase_count_median,count / index,1
+purchase_count_median_difference,bars,1
+purchase_count_negative_pairs,dimensionless / categorical; see statistical guide,1
+purchase_count_negative_rank_sum,dimensionless / categorical; see statistical guide,1
+purchase_count_nonzero_pairs,dimensionless / categorical; see statistical guide,1
+purchase_count_p_denominator,dimensionless / categorical; see statistical guide,1
+purchase_count_p_numerator,dimensionless / categorical; see statistical guide,1
+purchase_count_paired_count,dimensionless / categorical; see statistical guide,1
+purchase_count_positive_pairs,dimensionless / categorical; see statistical guide,1
+purchase_count_positive_rank_sum,dimensionless / categorical; see statistical guide,1
+purchase_count_pvalue,dimensionless / categorical; see statistical guide,1
+purchase_count_statistic,dimensionless / categorical; see statistical guide,1
+purchase_count_tied_absolute_difference_groups,dimensionless / categorical; see statistical guide,1
 purchase_count_variant_minus_full,count / index,1
+purchase_count_zero_pairs,dimensionless / categorical; see statistical guide,1
 purchase_length_m,m,4
 purchase_length_m_median,m,1
 purchase_weight_ci95_high_t,t,1
@@ -128,8 +164,13 @@ purchase_weight_ci95_low_t,t,1
 purchase_weight_t,t,3
 purchase_weight_t_median,t,1
 purchase_weight_variant_minus_full_t,t,1
+pvalue,dimensionless / categorical; see statistical guide,2
+quantity,dimensionless / categorical; see statistical guide,1
 random_seed,count / index,70
 rank_biserial,dimensionless; see DATA_DICTIONARY.md,1
+reanalysis_minus_archive,quantity-specific; see quantity field,1
+reanalysis_value,quantity-specific; see quantity field,1
+relative_difference_between_scenario_medians_percent,%,1
 remaining_length_m,m,2
 remaining_length_mm,mm,100
 remaining_m_s3,m,1
@@ -146,10 +187,11 @@ run_id,identifier / category / flag; see DATA_DICTIONARY.md,74
 saved_m,m,1
 saved_vs_bfd_m_median,m,1
 saved_vs_bfd_mm,mm,2
+saving_vs_bfd_m,m,1
 scenario,identifier / category / flag; see DATA_DICTIONARY.md,7
-scenario_a,identifier / category / flag; see DATA_DICTIONARY.md,1
-scenario_b,identifier / category / flag; see DATA_DICTIONARY.md,1
-seed,count / index,10
+scenario_a,identifier / category / flag; see DATA_DICTIONARY.md,2
+scenario_b,identifier / category / flag; see DATA_DICTIONARY.md,2
+seed,count / index,11
 segment_changed,identifier / category / flag; see DATA_DICTIONARY.md,1
 selected_initial_stock_count,count / index,1
 sequence_in_bar,count / index,101
@@ -159,9 +201,10 @@ solver_status,identifier / category / flag; see DATA_DICTIONARY.md,70
 source,identifier / category / flag; see DATA_DICTIONARY.md,2
 source_type,identifier / category / flag; see DATA_DICTIONARY.md,19
 specification,identifier / category / flag; see DATA_DICTIONARY.md,267
-split,identifier / category / flag; see DATA_DICTIONARY.md,3
+split,identifier / category / flag; see DATA_DICTIONARY.md,5
 split_name,identifier / category / flag; see DATA_DICTIONARY.md,2
 stage_count,count / index,1
+statistic,dimensionless / categorical; see statistical guide,2
 stock_entity_id,identifier / category / flag; see DATA_DICTIONARY.md,1
 stock_id,identifier / category / flag; see DATA_DICTIONARY.md,19
 stock_length_m,m,7
@@ -182,6 +225,7 @@ substitution_penalty,dimensionless; see DATA_DICTIONARY.md,170
 substitution_penalty_a_minus_b,dimensionless; see DATA_DICTIONARY.md,1
 substitution_penalty_median,dimensionless; see DATA_DICTIONARY.md,1
 substitution_penalty_variant_minus_full,dimensionless; see DATA_DICTIONARY.md,1
+tied_absolute_difference_groups,dimensionless / categorical; see statistical guide,2
 time_ratio_milp_over_alns,dimensionless; see DATA_DICTIONARY.md,1
 total_remaining_length_mm,mm,69
 total_reusable_remnant_length_mm,mm,69
@@ -191,11 +235,11 @@ unassigned_count,count / index,74
 unassigned_count_max,count / index,2
 unassigned_length_m,m,3
 unassigned_length_m_max,m,2
-unit_weight_kg_per_m,kg/m,119
+unit_weight_kg_per_m,m,119
 used_length_m,m,1
 used_length_mm,mm,100
 utilization,dimensionless; see DATA_DICTIONARY.md,69
-variant,identifier / category / flag; see DATA_DICTIONARY.md,2
+variant,identifier / category / flag; see DATA_DICTIONARY.md,3
 variant_minus_full_count,count / index,3
 variant_minus_full_elapsed_s,s,3
 variant_minus_full_substitution_penalty,dimensionless; see DATA_DICTIONARY.md,3
@@ -203,11 +247,26 @@ variant_minus_full_weight_t,t,3
 variant_purchase_weight_t,t,3
 waste_length_m,m,3
 waste_length_m_median,m,2
+weight_ci95_high,t,1
 weight_ci95_high_t,t,1
+weight_ci95_low,t,1
 weight_ci95_low_t,t,1
-weight_difference_t_a_minus_b,t,1
-weight_holm_adjusted_p,dimensionless; see DATA_DICTIONARY.md,1
-weight_nonzero_pairs,identifier / category / flag; see DATA_DICTIONARY.md,1
+weight_difference_t_a_minus_b,t,2
+weight_holm_adjusted_p,dimensionless; see DATA_DICTIONARY.md,2
+weight_median_difference,t,1
+weight_negative_pairs,dimensionless / categorical; see statistical guide,1
+weight_negative_rank_sum,dimensionless / categorical; see statistical guide,1
+weight_nonzero_pairs,identifier / category / flag; see DATA_DICTIONARY.md,2
+weight_p_denominator,dimensionless / categorical; see statistical guide,1
+weight_p_numerator,dimensionless / categorical; see statistical guide,1
+weight_paired_count,dimensionless / categorical; see statistical guide,1
+weight_positive_pairs,dimensionless / categorical; see statistical guide,1
+weight_positive_rank_sum,dimensionless / categorical; see statistical guide,1
+weight_pvalue,dimensionless / categorical; see statistical guide,1
 weight_rank_biserial,dimensionless; see DATA_DICTIONARY.md,1
+weight_statistic,dimensionless / categorical; see statistical guide,1
+weight_tied_absolute_difference_groups,dimensionless / categorical; see statistical guide,1
 weight_wilcoxon_exact_p,dimensionless; see DATA_DICTIONARY.md,1
+weight_zero_pairs,dimensionless / categorical; see statistical guide,1
 worse_seed_count,count / index,1
+zero_pairs,dimensionless / categorical; see statistical guide,2

@@ -1,0 +1,2 @@
+variant,direction,holm_family_size,holm_adjusted_p,median_difference,ci95_low,ci95_high,paired_count,nonzero_pairs,zero_pairs,positive_pairs,negative_pairs,tied_absolute_difference_groups,positive_rank_sum,negative_rank_sum,statistic,p_numerator,p_denominator,pvalue,bootstrap_index_sha256
+REGRET_GREEDY,variant minus full,1,0.8050556182861328,0.014960000000000001,-0.026180000000000002,0.0374,20,20,0,11,9,6,112.0,98.0,98.0,844162,1048576,0.8050556182861328,92852d16ab0101706ec5bc9155076b51eb582c985c15c75c0ebebb718a114532
